@@ -1,0 +1,18 @@
+Package: sawcn
+Type: Package
+Title: Identify interspecific associations by wavelet correlation network
+Version: 0.1.0
+Date: 2020-06-14
+Author: Zhangqi Ding <zqding_st@rcees.ac.cn>; Keming Ma <kmm@rcees.ac.cn>
+Maintainer: Zhangqi Ding <zqding_st@rcees.ac.cn>
+Description: Calculate and assess interspecific associations change along gradient or time, and show the species associations network.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.1.0
+URL: https://github.com/zhangqiding/sawcn
+Imports: doParallel, corrplot, foreach
+LazyData: true
+Suggests: knitr, rmarkdown, roxygen2
+VignetteBuilder: knitr
+Depends: R (>= 3.5.3)
+NeedsCompilation: no
